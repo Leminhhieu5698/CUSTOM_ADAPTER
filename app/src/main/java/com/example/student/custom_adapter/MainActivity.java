@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         mangsv.add(new Sinhvien(" Messi  ", "1985"));
         mangsv.add(new Sinhvien(" Neymar  ", "1987"));
 
-       // ListView adapter = new ListView(MainActivity.this,layout.sinh_vien, mangsv);
-  //  lssv.setAdapter((ListAdapter) adapter);
+       Listview adapter = new Listview(MainActivity.this,layout.sinh_vien, mangsv);
+    lssv.setAdapter((ListAdapter) adapter);
 
     }
 
