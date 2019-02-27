@@ -13,17 +13,18 @@
         android:layout_height="49dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnlit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Listview"
+        android:onClick="btnl"
         tools:layout_editor_absoluteX="103dp"
         tools:layout_editor_absoluteY="198dp"
 
         />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btndt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Gridview"
